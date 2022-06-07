@@ -1,0 +1,66 @@
+$base-color: #100e17;
+$base-color-nav: #091e25;
+$base-text-color: #d4ecdd9c;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("hatter_c.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: $base-color;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: $base-color-nav;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 33%;
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: $base-text-color;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+.logo {
+  margin-left: -10rem;
+  margin-right: -20rem;
+  height: 8rem;
+  image-rendering: crisp-edges;
+}
+.logoText {
+  margin-left: -10rem;
+  font-size: 52px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+
+p {
+  color: #adb7bd;
+  font-family: "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 70px;
+  margin-left: 40px;
+  text-align: justify;
+  font-weight: bold;
+}
